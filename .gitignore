@@ -1,22 +1,81 @@
-# Compiled class file
-*.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
 *.jar
+*.rar
+*.tar
+*.zip
 *.war
 *.ear
-*.zip
 *.tar.gz
-*.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+*.sqlitedb
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Icon?
+
+# Java #
+######################
+.class
+*tmp
+
+# Temp files #
+######################
+*~
+*.swp
+*.bak
+
+# LaTeX files #
+#######################
+*.log
+*.aux
+*.idx
+*.lof
+*.lol
+*.lot
+*.nlo
+*.out
+*.toc
+
+# other files #
+#######################
+*.pdf
+
+# eclipse #
+#######################
+.metadata
+bin/
+tmp/
+*.tmp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+.classpath
+.project
+.buildpath
+out/
+*.launch
+
+# audio-recognizer #
+#######################
+*.mp3
